@@ -1,0 +1,42 @@
+.typography {
+	&__font {
+		&-Norms {
+			font-family: 'TT Norms';
+		}
+
+		&-Roboto {
+			font-family: 'Roboto';
+		}
+	}
+
+	&__tuia {
+		color: #333333;
+		font-size: 1em;
+		font-weight: 500;
+		text-transform: uppercase;
+
+		@media (max-width: 768px) {
+			font-size: 1.3em;
+		}
+
+		&_sub {
+			color: #cfc3ad;
+		}
+	}
+}
+
+body {
+	font-size: 30px;
+
+	@media (max-width: 1400px) {
+		font-size: 25px;
+	}
+
+	@media (max-width: 1200px) {
+		font-size: 20px;
+	}
+
+	@media (max-width: 1000px) {
+		font-size: 15px;
+	}
+}
