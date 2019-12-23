@@ -1,0 +1,30 @@
+.map {
+  position: relative;
+
+  &__background {
+    height: 350px;
+  }
+
+  &__contacts {
+    background: white;
+    position: absolute;
+    right: 50px;
+    width: 360px;
+    top: 50px;
+    padding: 30px;
+    font-size: 27px;
+    line-height: 1.3;
+  }
+
+  &__heading {
+    font-size: 35px;
+    > * {
+      display: inline-block;
+      vertical-align: middle;
+    }
+  }
+
+  &__icon {
+    width: 50px;
+  }
+}
